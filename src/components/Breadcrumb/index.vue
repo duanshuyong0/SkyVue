@@ -1,6 +1,8 @@
 <template>
 <div class="app-breadcrumb">
+  <!--
   浙江杭州智创有限公司<span class="breadBtn">尝鲜版</span>
+  -->
 </div>
 </template>
 

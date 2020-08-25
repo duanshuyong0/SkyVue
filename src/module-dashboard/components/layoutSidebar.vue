@@ -7,8 +7,10 @@
       class="sidebarBg"
       >
       <router-link to="/">
+      <!--
         <div class="sidebar-logo"><img src="../assets/logo.png" /></div>
         <div class="sidebar-logo-mini"><img src="../assets/logo.png" /></div>
+        -->
       </router-link>
       <sidebar-item :routes="permission_routers"></sidebar-item>
     </el-menu>
