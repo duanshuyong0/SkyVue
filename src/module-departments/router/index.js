@@ -17,7 +17,7 @@ export default [
         path: 'index',
         component: _import('departments/pages/index'),
         name: 'organizations-index',
-        meta: {title: '组织架构', icon: 'architecture', noCache: true}
+        meta: {title: '组织', icon: 'architecture', noCache: true}
       }
     ]
   }

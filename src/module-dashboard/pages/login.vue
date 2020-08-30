@@ -2,7 +2,12 @@
   <div class="login-container">
     <el-form class="login-form" autoComplete="on" :model="loginForm" :rules="loginRules" ref="loginForm" label-position="left">
       <div class="title-container">
-        <h3 class="title"><img src="./../assets/login-logo.png"></h3>
+        <h3 class="title">
+          <!--
+          <img src="./../assets/login-logo.png">
+          -->
+          </h3>
+          
       </div>
       <el-form-item prop="username">
         <span class="svg-container svg-container_login">
@@ -21,8 +26,10 @@
         </span>
       </el-form-item>
 
-      <el-button class="loginBtn" type="primary" style="width:49%;margin-bottom:30px;" :loading="loading" @click.native.prevent="handleLogin">{{$t('login.logIn')}}</el-button>
+      <el-button class="loginBtn" type="primary" style="width:100%;margin-bottom:30px;" :loading="loading" @click.native.prevent="handleLogin">{{$t('login.logIn')}}</el-button>
+      <!--
       <el-button class="loginBtn" type="primary" style="width:49%;margin-bottom:30px; margin-left:0" @click="handlecode">刷脸登录</el-button>
+      -->
       <div class="regInfo"><router-link :to="{'path':'/reg'}">还没有账号？立即注册</router-link></div>
 
       <!-- <el-button class="thirdparty-button" type="primary" @click="showDialog=true">{{$t('login.thirdparty')}}</el-button> -->
